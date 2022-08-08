@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="TIC TAC TOE.css" />
+    <script src="TIC TAC TOE.js"></script>
+  </head>
+  <body>
+    <!-- <main class="Background">
+        <section class="Title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <section class="Display">
+            Player <span class="Player_Turn PlayerX">X</span>'s turn
+        </section>
+        <section class="Container">
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+            <div class="Tile"></div>
+        </section>
+        <section class="Result hide"></section>
+        <section class="Controls">
+            <button id="Reset">Reset</button>
+        </section>
+    </main> -->
+    <main class="background">
+      <section class="title">
+        <h1>Tic Tac Toe</h1>
+        Player x's Name:
+        <input type="text" id="Pxname" placeholder="Put your name here" />
+        <br />
+        Player o's Name:
+        <input type="text" id="Poname" placeholder="Put your name here" />
+      </section>
+      <section class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+      </section>
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+      <section class="display announcer hide"></section>
+      <section class="controls">
+        <button id="newRound">Start new round!</button>
+        <button id="reset">Reset</button>
+      </section>
+    </main>
+    <table class="tbl" border="1">
+      <tr>
+        <th>Player X</th>
+        <th>Player O</th>
+        <th>TIE</th>
+      </tr>
+      <tr>
+        <td class="x">
+          <div class="xscore">0</div>
+          <div class="xstarimg"></div>
+        </td>
+        <td class="o">
+          <div class="oscore">0</div>
+
+          <div class="ostarimg"></div>
+        </td>
+        <td class="tie">
+          <div class="tiescore">0</div>
+
+          <div class="tiestarimg"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
